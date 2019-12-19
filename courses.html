@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+   
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <img src="Logo.png" alt="introuvable">
+   
+ <!--nouveau code bootstrap-->
+
+ <nav class="navbar navbar-default navcolor">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+           
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+              <li class="active"><a href="courses.html">course</a></li>
+             
+               
+            <form class="navbar-form navbar-left">
+            
+              
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="contact.html">contact</a></li>
+             
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+
+    <!--ancien code-->
+
+      
+    <div class="container1">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div id="im3" style="background-image: url('res/vect00.png');">
+              <button id="b3">Viewmore</button><br><br>
+             </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+          <div id="im4" style="background-image: url('res/vect01.png');">
+              <button id="b4">Viewmore</button><br><br>
+             </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+             <div id="im5" style="background-image: url('res/vect02.png');">
+              <button id="b5">Viewmore</button><br><br>
+             </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div id="im7" style="background-image: url('res/vect03.png');">
+                  <button id="b7">Viewmore</button><br><br>
+                 </div>
+                </div>
+    </div>
+  </div>
+    <div id="model1">
+        <p>this is gomycode track</p>   
+       </div>
+    <center>
+        <h1>COURSES</h1>
+        <br>
+        <h3>feedback</h3>
+        <button onclick="changebold()">gras</button>
+        <button onclick="changeitalic()">Italique</button>
+        <button onclick="changeunderline()">Underline</button>
+        <select onchange="changesize(this)">
+            <option value="20px">20px</option>
+            <option value="50px">50px</option>
+        </select>
+        <select onchange="changefont(this)">
+            <option value="Arial">Arial</option>
+            <option value="Tahoma">Tahoma</option>
+            <option value="Times New Roman">Roman</option>
+        </select>
+        <br><br><br>
+        <textarea id="message" style="height: 200px; width: 300px;"></textarea>
+     </center>
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+ <script src="main.js"></script>
+</html>

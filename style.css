@@ -1,0 +1,90 @@
+body {
+    background-image: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+                linear-gradient(127deg, black, black 70.71%),
+                linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+a{
+    color:white;
+    font-size:30px;
+    text-transform: uppercase;
+
+}
+ul{
+    margin-left:300px;
+    margin-top:50px;
+}
+img{
+    height: 60px;
+    width: 60px;
+}
+.image
+{
+    height:100%;
+    width:100%;
+}
+iframe{
+    margin-left:400px;
+    margin-top:50px;
+}
+#im0, #im1, #im2, #im3, #im4, #im5, #im6, #im7
+{
+  
+  width: 150px;
+  height: 150px;  
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  display:flex;
+  cursor: pointer;
+  opacity: 0.5;
+  display:inline-flex;
+  margin: 10px;
+
+}
+
+
+#model, #b0,#b1,#b2,#b3,#b4,#b5, #b6, #model1, #b7
+{
+    display:none;
+}
+.container1
+{
+    display:flex;
+   
+    justify-content: center;
+}
+.navcolor
+{
+    background-color: transparent;
+    border: none;
+   
+}
+
+#p1, #p2, #p3
+
+{
+    height: 500px;
+    width: 100%;
+}
+.container2
+{
+    display:flex;
+    justify-content: center;
+   align-items: center;
+}
+
+.resize
+{
+    width:200px;
+    display:block;
+    margin:auto;
+
+   
+}
+label
+{
+    color:yellow;
+  
+}
+
